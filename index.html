@@ -1,669 +1,639 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
-    <meta name="keywords" content="jonathan kablan">
-    <meta name="author" content="Jonathan kablan">
-    <meta name="description" content="Site Web dédié au compétence de Jonathan Kablan" />
-    <title>Jonathan Kablan</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-    <!-- CSS  -->
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Material Design Bootstrap</title>
 
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
 
-    <!--  Scripts-->
-    <script src="js/jquery-2.1.1.min.js"></script>
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
-    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+    <!-- Material Design Bootstrap -->
+    <link href="css/css_mdb.min.css" rel="stylesheet">
 
-    <script src="js/init.js"></script>
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="developer">
 
-    <div id="index-banner" class="parallax-container valign-wrapper" style="height: 400px;">
-        <div class="container portfolio" style="color: #000;">
-            <center>
-                <p style="height: 40px;">
-                    <a id="logo-container" href="#">
-                        <i class="material-icons" style="font-size: 100px;color: #000;">settings_ethernet</i>
-                    </a>
-                </p>
-                <br>
-                <p>
-                    <h1 style="font-size: 35px;">Jonathan Kablan</h1>
-                    <h5 style="font-size: 20px;">PROGRAMMATION • APPLICATIONS WEB • SITE INTERNET • APPLICATION MOBILE • API REST • DESIGN WEB • ARCHITECTURE DES BASES DE DONNÉES</h5>
-                </p>
-            </center>
-        </div>
-        <div class="parallax"><img src="images/fond.jpg" alt="Unsplashed background img 2"></div>
-    </div>
-
-    <div class="white container portfolio">
-        <h5>&nbsp;</h5>
-        <h6 style="font-size: 2em;"><b>FORMATION</b></h6>
-        <div class="row">
-            <div class="col s3 m3 l3">
-                <!-- Promo Content 1 goes here -->
-                <b>Formation F2I Vincennes</b> <br> Formation Développeur we digital Of Paris (BAC + 5) <br>
-                <i>2017 Septembre - 2019 Septembre</i>
-            </div>
-            <div class="col s3 m3 l3">
-                <!-- Promo Content 1 goes here -->
-                <b>Samsung Campus</b> <br> Formation Samsung Campus - Pedagogie Epitech <br>
-                <i>2016 - Actuellement</i>
-            </div>
-            <div class="col s3 m3 l3">
-                <!-- Promo Content 2 goes here -->
-                <b>Epitech</b> <br> Formation PHP <br>
-                <i>AOUT 2016</i>
-            </div>
-            <div class="col s3 m3 l3">
-                <!-- Promo Content 3 goes here -->
-                <b>Intitus des Technologie d'Abidjan</b> <br> Formation en Informatique Développement d'Application. <br>
-                <i>2012 - 2014</i>
-            </div>
-        </div>
-    </div>
-
-    <div class="parallax-container valign-wrapper" style="height: 210px;">
-        <div class="section no-pad-bot">
+    <!--Navigation & Intro-->
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark indigo">
             <div class="container">
-                <div class="row center">
-                    <h5 class="header col s12 light">&nbsp;</h5>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                    aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav mr-auto smooth-scroll">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about" data-offset="100">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills" data-offset="100">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#works" data-offset="100">Works</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact" data-offset="100">Contact</a>
+                        </li>
+                    </ul>
+                    <!-- Social Icon  -->
+                    <ul class="navbar-nav nav-flex-icons">
+                        <li class="nav-item">
+                            <a class="nav-link"><i class="fab fa-facebook-f light-green-text-2"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"><i class="fab fa-twitter light-green-text-2"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"><i class="fab fa-instagram light-green-text-2"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Intro Section -->
+        <div id="home" class="view jarallax" data-jarallax='{"speed": 0.2}'
+            style="background-image: url('https://mdbootstrap.com/img/Photos/Others/img%20%2853%29.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+            <div class="mask rgba-black-strong">
+                <div class="container h-100 d-flex justify-content-center align-items-center">
+                    <div class="row smooth-scroll">
+                        <div class="col-md-12 pt-3">
+                            <div class="white-text text-center pt-5">
+                                <h1 class="display-2 mb-4 white-text wow h1-responsive">I am <strong>Jonathan Kablan</strong></h1>
+                                <h5 class="text-uppercase font-weight-bold wow fadeIn" data-wow-delay="0.4s"><mark>Backend
+                                        developer & mobile</mark></h5>
+                                <a href="#about" class="btn btn-floating btn-large wow fadeIn" data-wow-delay="0.4s"
+                                    data-offset="100"><i class="fas fa-angle-down" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="parallax"><img src="images/background3.jpg"></div>
-    </div>
 
+    </header>
+    <!--/Navigation & Intro-->
 
-    <div class="container portfolio">
-        <h5>&nbsp;</h5>
-        <h6 style="font-size: 2em;"><b>COMPETENCES</b></h6>
-        <div class="row">
-            <div class="col s12 m12 l12">
-                <div class="chip" style="margin-bottom: 25px;">
-                    <img src="images/symfony.png" style="width: 50px; height: 50px;">Symfony 3.x
-                </div>
-                <div class="chip" style="margin-bottom: 25px;">
-                    <img src="images/angular.png" style="width: 50px; height: 50px;">Angular
-                </div>
-                <div class="chip" style="margin-bottom: 25px;">
-                    <img src="images/materialize.png" style="width: 50px; height: 50px;">MaterializeCss
-                </div>
-                <div class="chip" style="margin-bottom: 25px;">
-                    <img src="images/bootstrap.png" style="width: 50px; height: 50px;">Bootstrap
-                </div>
-                <div class="chip" style="margin-bottom: 25px;">
-                    <img src="images/phpmyadmin.png" style="width: 50px; height: 50px;">PhpMyAdmin
-                </div>
-                <div class="chip" style="margin-bottom: 25px;">
-                    <img src="images/php.png" style="width: 50px; height: 50px;">PHP 5
-                </div>
-                <div class="chip" style="margin-bottom: 25px;">
-                    <img src="images/html.png" style="width: 50px; height: 50px;">HTML 5
-                </div>
-                <div class="chip" style="margin-bottom: 25px;">
-                    <img src="images/css3.png" style="width: 50px; height: 50px;">CSS 3
-                </div>
-                <div class="chip" style="margin-bottom: 25px;">
-                    <img src="images/js.png" style="width: 50px; height: 50px;">JavaScript
-                </div>
-                <div class="chip" style="margin-bottom: 25px;">
-                    <img src="images/ionic.png" style="width: 50px; height: 50px;">Ionic
-                </div>
-                <div class="chip" style="margin-bottom: 25px;">
-                    <img src="images/git.png" style="width: 50px; height: 50px;">Git
-                </div>
-                <div class="chip" style="margin-bottom: 25px;">
-                    <img src="images/linux.png" style="width: 50px; height: 50px;">Linux
-                </div>
-                <div class="chip" style="margin-bottom: 25px;">
-                    <img src="images/windows.png" style="width: 50px; height: 50px;">Windows
-                </div>
-                <div class="chip" style="margin-bottom: 25px;">
-                    <img src="images/jquery.png" style="width: 50px; height: 50px;">Jquery
-                </div>
-                <div class="chip" style="margin-bottom: 25px;">
-                    <img src="images/node.png" style="width: 50px; height: 50px;">NodeJs
-                </div>
-                <div class="chip" style="margin-bottom: 25px;">
-                    <img src="images/wordpress.ico" style="width: 50px; height: 50px;">Wordpress
-                </div>
-                <div class="chip" style="margin-bottom: 25px;">
-                    <img src="images/api.png" style="width: 50px; height: 50px;">Api Rest
-                </div>
-                <div class="chip" style="margin-bottom: 25px;">
-                    <img src="images/growth.png" style="width: 50px; height: 50px;">Growth Hacker
-                </div>
-                <div class="chip" style="margin-bottom: 25px;">
-                    <img src="images/google-play.png" style="width: 50px; height: 50px;">Google Developper
-                </div>
-                <div class="chip" style="margin-bottom: 25px;">
-                    <img src="images/facebook.ico" style="width: 50px; height: 50px;"> Api Facebook Developper
-                </div>
-                <div class="chip" style="margin-bottom: 25px;">
-                    <img src="images/laravel.png" style="width: 50px; height: 50px;">Laravel
-                </div>
-                <div class="chip" style="margin-bottom: 25px;">
-                    <img src="images/merise.png" style="width: 50px; height: 50px;">Merise
-                </div>
-            </div>
-        </div>
-    </div>
+    <!--Main layout-->
+    <main>
 
-    <div class="parallax-container valign-wrapper" style="height: 80px;">
-        <div class="section no-pad-bot">
-            <div class="container">
-                <div class="row center">
-                    <h5 class="header col s12 light">&nbsp;</h5>
-                </div>
-            </div>
-        </div>
-        <div class="parallax"><img src="images/background2.jpg"></div>
-    </div>
-
-
-    <div class="container-fluid" style="background: url(images/4.png); height: 50px;"></div>
-
-    <div class="container portfolio">
-        <h5>&nbsp;</h5>
-        <h6 style="font-size: 2em;"><b>PROJET</b></h6>
-
-        <div class="row">
-
-            <div class="col s4 m4 l4">
-                <ul class="collection" style="border: none !important;">
-                	<li class="collection-item avatar">
-                        <div class="card">
-                            <div class="card-content">
-                                <center>
-                                    <a class="modal-trigger" href="#modal_ceptronbox">
-                                        <img src="src/ceptronbox.PNG" style="width: 100%;height: 100%;">
-                                    </a><br>
-                                    <p> Ceptronbox </p>
-                                </center>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="collection-item avatar">
-                        <div class="card">
-                            <div class="card-content">
-                                <center>
-                                    <a class="modal-trigger" href="#modal_restApi">
-                                        <img src="src/restApi.PNG" style="width: 100%;height: 100%;">
-                                    </a><br>
-                                    <p>Rest Api Symfony 3 </p>
-                                </center>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="collection-item avatar">
-                        <div class="card">
-                            <div class="card-content">
-                                <center>
-                                    <a class="modal-trigger" href="#modal_pmariage">
-                                        <img src="src/pmariage.png" style="width: 100%;height: 100%;">
-                                    </a><br>
-                                    <p>Prestataire de mariage</p>
-                                </center>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="collection-item avatar">
-                        <div class="card">
-                            <div class="card-content">
-                                <center>
-                                    <a class="modal-trigger" href="#modal_meetic">
-                                        <img src="src/meetic.png" style="width: 100%;height: 100%;">
-                                    </a><br>
-                                    <p>Site de rencontre </p>
-                                </center>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="collection-item avatar">
-                        <div class="card">
-                            <div class="card-content">
-                                <center>
-                                    <a class="modal-trigger" href="#modal_cim">
-                                        <img src="src/cim.png" style="width: 100%;height: 100%;">
-                                    </a><br>
-                                    <p>Site pour particulier</p>
-                                </center>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="collection-item avatar">
-                        <div class="card">
-                            <div class="card-content">
-                                <center>
-                                    <a class="modal-trigger" href="#modal_nstudio">
-                                        <img src="src/nstudio.png" style="width: 100%;height: 100%;">
-                                    </a><br>
-                                    <p>Site pour un studio de music</p>
-                                </center>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-
-
-
-
-
-            <div class="col s4 m4 l4">
-                <ul class="collection" style="border: none !important;">
-                    <li class="collection-item avatar">
-                        <div class="card">
-                            <div class="card-content">
-                                <center>
-                                    <a class="modal-trigger" href="#modal_reparizy">
-                                        <img src="src/reparizy.png" style="width: 100%;height: 100%;">
-                                    </a><br>
-                                    <p>Reparizy site dans l'auto</p>
-                                </center>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="collection-item avatar">
-                        <div class="card">
-                            <div class="card-content">
-                                <center>
-                                    <a class="modal-trigger" href="#modal_yoptube">
-                                        <img src="src/yoptube.png" style="width: 100%;height: 100%;">
-                                    </a><br>
-                                    <p>Yoptube service youtupe</p>
-                                </center>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="collection-item avatar">
-                        <div class="card">
-                            <div class="card-content">
-                                <center>
-                                    <a class="modal-trigger" href="#modal_ffn">
-                                        <img src="src/ffn.png" style="width: 100%;height: 100%;">
-                                    </a><br>
-                                    <p>Site wordpress pour nation de france</p>
-                                </center>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="collection-item avatar">
-                        <div class="card">
-                            <div class="card-content">
-                                <center>
-                                    <a class="modal-trigger" href="#modal_matrix">
-                                        <img src="src/matrix.png" style="width: 100%;height: 100%;">
-                                    </a><br>
-                                    <p>App matrix java</p>
-                                </center>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="collection-item avatar">
-                        <div class="card">
-                            <div class="card-content">
-                                <center>
-                                    <a class="modal-trigger" href="#modal_skindeep2">
-                                        <img src="src/skindeep2.png" style="width: 100%;height: 100%;">
-                                    </a><br>
-                                    <p>Skindeep theme 2</p>
-                                </center>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="collection-item avatar">
-                        <div class="card">
-                            <div class="card-content">
-                                <center>
-                                    <a class="modal-trigger" href="#modal_ulci">
-                                        <img src="src/ulci.png" style="width: 100%;height: 100%;">
-                                    </a><br>
-                                    <p>Site pour organisation</p>
-                                </center>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-
-
-
-
-
-
-            <div class="col s4 m4 l4">
-                <ul class="collection" style="border: none !important;">
-                    <li class="collection-item avatar">
-                        <div class="card">
-                            <div class="card-content">
-                                <center>
-                                    <a class="modal-trigger" href="#modal_appsymfony">
-                                        <img src="src/sf3.PNG" style="width: 100%;height: 100%;">
-                                    </a><br>
-                                    <p>Documentation des fonctionnalitées sous symfony - Google Play Application</p>
-                                </center>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="collection-item avatar">
-                        <div class="card">
-                            <div class="card-content">
-                                <center>
-                                    <a class="modal-trigger" href="#modal_skindeep">
-                                        <img src="src/skindeep.png" style="width: 100%;height: 100%;">
-                                    </a><br>
-                                    <p>Skindeep theme 1</p>
-                                </center>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="collection-item avatar">
-                        <div class="card">
-                            <div class="card-content">
-                                <center>
-                                    <a class="modal-trigger" href="#modal_fd">
-                                        <img src="src/fd.png" style="width: 100%;height: 100%;">
-                                    </a><br>
-                                    <p>Site de musique</p>
-                                </center>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="collection-item avatar">
-                        <div class="card">
-                            <div class="card-content">
-                                <center>
-                                    <a class="modal-trigger" href="#modal_lt19">
-                                        <img src="src/lt19.png" style="width: 100%;height: 100%;">
-                                    </a><br>
-                                    <p>Portfolio football</p>
-                                </center>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="collection-item avatar">
-                        <div class="card">
-                            <div class="card-content">
-                                <center>
-                                    <a class="modal-trigger" href="#modal_wadibou">
-                                        <img src="src/wadibou.png" style="width: 100%;height: 100%;">
-                                    </a><br>
-                                    <p>Site pour restaurant</p>
-                                </center>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
-    <div class="container-fluid" style="background: url(images/4.png); height: 50px;"></div>
-
-    <footer class="page-footer" style="background: url(images/5.png);">
+        <!-- First container -->
         <div class="container">
-            <div class="row">
-                <div class="col l3 s12">
-                    <h5 class="white-text">Social Network</h5>
-                    <p class="white-text">
-                        Copyright &copy; 2017 - Jonathan kablan
-                    </p>
+
+            <!-- Section About -->
+            <section id="about" class="section feature-box mb-5">
+
+                <!-- Section title -->
+                <h2 class="text-center text-uppercase my-5 pt-5 wow fadeIn" data-wow-delay="0.2s">About
+                    <strong>me</strong></h2>
+
+                <p class="text-center w-responsive mx-auto wow fadeIn my-5" data-wow-delay="0.2s">
+                    PROGRAMMATION • APPLICATIONS WEB • SITE INTERNET • APPLICATION MOBILE • API REST • DESIGN WEB • ARCHITECTURE DES BASES
+                    DE DONNÉES.</p>
+
+                <!-- First row -->
+                <div class="row features-big text-center wow fadeIn" data-wow-delay="0.4s">
+
+                    <!-- First column -->
+                    <div class="col-md-4 mb-5">
+
+                        <!--Panel-->
+                        <div class="card card-body hoverable">
+                            <i class="fas fa-laptop fa-3x mb-4" aria-hidden="true"></i>
+                            <h5 class="font-weight-bold text-uppercase mb-4">Freelancer</h5>
+                        </div>
+                        <!--/.Panel-->
+
+                    </div>
+                    <!-- /First column -->
+
+                    <!-- Second column -->
+                    <div class="col-md-4 mb-5">
+
+                        <!--Panel-->
+                        <div class="card card-body yellow hoverable">
+                            <i class="fas fa-code fa-3x mb-4" aria-hidden="true"></i>
+                            <h5 class="font-weight-bold text-uppercase mb-4">Developer</h5>
+                        </div>
+                        <!--/.Panel-->
+
+                    </div>
+                    <!-- /.Second column -->
+
+                    <!-- Third column -->
+                    <div class="col-md-4 mb-5">
+
+                        <!--Panel-->
+                        <div class="card card-body hoverable">
+                            <i class="fas fa-pencil-alt fa-3x mb-4" aria-hidden="true"></i>
+                            <h5 class="font-weight-bold text-uppercase mb-4">Designer</h5>
+                        </div>
+                        <!--/.Panel-->
+
+                    </div>
+                    <!-- /.Third column -->
+
+                </div>
+                <!-- /.First row -->
+
+            </section>
+            <!-- /.Second section -->
+
+        </div>
+        <!-- /.First container -->
+
+        <!--Second container-->
+        <div class="container-fluid" style="background-color: #f3f3f5;">
+            <div class="container py-4 pt-4">
+
+                <!-- Second section -->
+                <section id="skills">
+
+                    <!-- First row -->
+                    <div class="row py-5">
+
+                        <!--First column-->
+                        <div class="col-lg-6 col-md-12 mb-3 wow">
+
+                            <!--Section heading-->
+                            <div class="d-flex justify-content-start">
+                                <h4 class="text-center text-uppercase mb-5 pb-3 mt-4 wow">
+                                    My <strong>experience</strong>
+                                </h4>
+                            </div>
+
+                            <!--Description-->
+                            <blockquote class="blockquote bq-warning mb-4">
+                                <div class="row"> <i class="fas fa-briefcase fa-x mb-1 mr-3 ml-3"
+                                        aria-hidden="true"></i>
+                                    <h5 class="font-weight-bold mb-3">Backend developer | Kernix, Digital & Data</h5>
+                                </div>
+                                <p class="font-weight-bold dark-grey-text">
+                                    <strong>janv. 2018 – Aujourd’hui (1 years 4 month) <br> 6 rue lalande 75014, PARIS</strong>
+                                </p>
+                            </blockquote>
+
+                            <blockquote class="blockquote bq-warning mt-1 mb-4">
+                                <div class="row"> <i class="fas fa-briefcase fa-x mb-1 mr-3 ml-3"
+                                        aria-hidden="true"></i>
+                                    <h5 class="font-weight-bold mb-3">Web developer | Audience Pro</h5>
+                                </div>
+                                <p class="font-weight-bold dark-grey-text"><strong>oct. 2017 – janv. 2018 (4 Month) <br> 30 rue Etienne Dolet, Cachan</strong></p>
+                            </blockquote>
+
+                            <blockquote class="blockquote bq-warning">
+                                <div class="row"> <i class="fas fa-briefcase fa-x mb-1 mr-3 ml-3"
+                                        aria-hidden="true"></i>
+                                    <h5 class="font-weight-bold mb-3">Web developer | Urban Challenge</h5>
+                                </div>
+                                <p class="font-weight-bold dark-grey-text"><strong>févr. 2017 – sept. 2017 (8 Month)<br> Région de Paris, France </strong></p>
+                            </blockquote>
+
+                            <blockquote class="blockquote bq-warning mt-1 mb-4">
+                                <div class="row"> <i class="fas fa-briefcase fa-x mb-1 mr-3 ml-3" aria-hidden="true"></i>
+                                    <h5 class="font-weight-bold mb-3">JavaScript developer | Parkopoly</h5>
+                                </div>
+                                <p class="font-weight-bold dark-grey-text"><strong>nov. 2016 – févr. 2017 (4 Month) <br> Région de Paris, France </strong></p>
+                            </blockquote>
+
+                            <blockquote class="blockquote bq-warning">
+                                <div class="row"> <i class="fas fa-briefcase fa-x mb-1 mr-3 ml-3" aria-hidden="true"></i>
+                                    <h5 class="font-weight-bold mb-3">Développeur Full-stack | DISTREEB SAS</h5>
+                                </div>
+                                <p class="font-weight-bold dark-grey-text">
+                                    <strong>juil. 2016 – nov. 2016 (5 Month) <br> LORD BYRON 75008, PARIS</strong>
+                                </p>
+                            </blockquote>
+
+                        </div>
+                        <!--/First column-->
+
+                        <!--Second column-->
+                        <div class="col-lg-5 offset-lg-1 col-md-12 mb-4 wow fadeIn">
+
+                            <!--Second heading-->
+                            <div class="d-flex justify-content-start">
+                                <h4 class="text-center text-uppercase mb-5 pb-3 mt-4 wow fadeIn">
+                                    Development <strong>Skills</strong></h4>
+                            </div>
+
+                            <!--Description-->
+                            <p class="black-text text-uppercase font-weight-bold" align="justify">PHP</p>
+                            <div class="md-progress">
+                                <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                            
+                            <p class="black-text text-uppercase font-weight-bold" align="justify">Symfony</p>
+                            <div class="md-progress">
+                                <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+                            
+                            <p class="black-text text-uppercase font-weight-bold" align="justify">Flutter</p>
+                            <div class="md-progress">
+                                <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0"
+                                    aria-valuemax="100"></div>
+                            </div>
+
+                            <p class="black-text text-uppercase font-weight-bold" align="justify">Java Script</p>
+                            <div class="md-progress">
+                                <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="25"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+
+                            <p class="black-text text-uppercase font-weight-bold" align="justify">CSS3 | HTML5</p>
+                            <div class="md-progress">
+                                <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+
+                            <p class="black-text text-uppercase font-weight-bold" align="justify">Bootstrap | Material</p>
+                            <div class="md-progress">
+                                <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="65"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+
+                        </div>
+                        <!--/Second column-->
+
+                    </div>
+                    <!--/First row-->
+
+                </section>
+                <!-- /.Second section -->
+
+            </div>
+        </div>
+        <!--/Second container-->
+
+        <!-- Third container -->
+        <div class="container">
+            <!-- Section About -->
+            <section class="section feature-box my-5 pb-5">
+                <!-- Section title -->
+                <h2 class="text-center text-uppercase my-5 pt-5 wow fadeIn" data-wow-delay="0.2s">
+                    Process of <strong>creating</strong>
+                </h2>
+                <div>
+                    <div class="chip indigo lighten-4 indigo-text">
+                        <img src="images/symfony.png">Symfony 4.x
+                    </div>
+                    <div class="chip indigo lighten-4 indigo-text">
+                        <img src="images/flutter.png">Flutter
+                    </div>
+                    <div class="chip indigo lighten-4 indigo-text">
+                        <img src="images/angular.png">Angular
+                    </div>
+                    <div class="chip indigo lighten-4 indigo-text">
+                        <img src="images/jenkins.png">Jenkins
+                    </div>
+                    <div class="chip indigo lighten-4 indigo-text">
+                        <img src="images/docker.png">Docker
+                    </div>
+                    <div class="chip indigo lighten-4 indigo-text">
+                        <img src="images/materialize.png">MaterializeCss
+                    </div>
+                    <div class="chip indigo lighten-4 indigo-text">
+                        <img src="images/bootstrap.png">Bootstrap
+                    </div>
+                    <div class="chip indigo lighten-4 indigo-text">
+                        <img src="images/phpmyadmin.png">PhpMyAdmin
+                    </div>
+                    <div class="chip indigo lighten-4 indigo-text">
+                        <img src="images/php.png">PHP 7
+                    </div>
+                    <div class="chip indigo lighten-4 indigo-text">
+                        <img src="images/swift.png">Swift
+                    </div>
+                    <div class="chip indigo lighten-4 indigo-text">
+                        <img src="images/html.png">HTML 5
+                    </div>
+                    <div class="chip indigo lighten-4 indigo-text">
+                        <img src="images/css3.png">CSS 3
+                    </div>
+                    <div class="chip indigo lighten-4 indigo-text">
+                        <img src="images/js.png">JavaScript
+                    </div>
+                    <div class="chip indigo lighten-4 indigo-text">
+                        <img src="images/ionic.png">Ionic
+                    </div>
+                    <div class="chip indigo lighten-4 indigo-text">
+                        <img src="images/git.png">Git
+                    </div>
+                    <div class="chip indigo lighten-4 indigo-text">
+                        <img src="images/dart.png">Dart
+                    </div>
+                    <div class="chip indigo lighten-4 indigo-text">
+                        <img src="images/linux.png">Linux
+                    </div>
+                    <div class="chip indigo lighten-4 indigo-text">
+                        <img src="images/mac.png">Mac Os
+                    </div>
+                    <div class="chip indigo lighten-4 indigo-text">
+                        <img src="images/jquery.png">Jquery
+                    </div>
+                    <div class="chip indigo lighten-4 indigo-text">
+                        <img src="images/node.png">NodeJs
+                    </div>
+                    <div class="chip indigo lighten-4 indigo-text">
+                        <img src="images/wordpress.ico">Wordpress
+                    </div>
+                    <div class="chip indigo lighten-4 indigo-text">
+                        <img src="images/api.png">Api Rest
+                    </div>
+                    <div class="chip indigo lighten-4 indigo-text">
+                        <img src="images/growth.png">Growth Hacker
+                    </div>
+                    <div class="chip indigo lighten-4 indigo-text">
+                        <img src="images/google-play.png">Google Developper
+                    </div>
+                    <div class="chip indigo lighten-4 indigo-text">
+                        <img src="images/laravel.png">Laravel
+                    </div>
+                    <div class="chip indigo lighten-4 indigo-text">
+                        <img src="images/merise.png">Merise
+                    </div>
+                </div>
+            </section>
+            <!-- /.Section -->
+        </div>
+        <!-- /.Third container -->
+
+        <!-- Streak -->
+        <div class="streak streak-photo streak-md"
+            style="background-image:url('https://mdbootstrap.com/img/Photos/Horizontal/Work/12-col/img%20%2811%29.jpg')">
+            <div class="mask flex-center rgba-black-strong">
+                <div class="white-text smooth-scroll mx-4">
+                    <h2 class="h2-responsive wow fadeIn mb-5"><i class="fas fa-quote-left" aria-hidden="true"></i>
+                        There will be two kinds of people in the world, those who tell computers what to do, and those who’re told by computers
+                        what to do.<i
+                            class="fas fa-quote-right" aria-hidden="true"></i></h2>
+                    <h5 class="text-center font-italic wow fadeIn" data-wow-delay="0.2s">~ Marc Andreesen</h5>
                 </div>
             </div>
         </div>
-        <div class="footer-copyright">
-            <div class="container">&nbsp;</div>
+        <!-- /.Streak -->
+
+        <!-- Fourth container -->
+        <div class="container">
+
+            <!-- Fourth section -->
+            <section id="works" class="section mb-5">
+
+                <!-- Section title -->
+                <h2 class="text-center text-uppercase my-5 pt-5 wow fadeIn" data-wow-delay="0.2s">My
+                    <strong>projects</strong></h2>
+
+                <!-- First row -->
+                <div class="row wow fadeIn" data-wow-delay="0.4s">
+
+                    <!-- First column -->
+                    <div class="col-md-12 mb-5">
+
+                        <!-- Lightbox -->
+                        <div id="mdb-lightbox-ui"></div>
+
+                        <div class="mdb-lightbox">
+
+                            <figure class="col-md-4">
+                                <a href="images/coaching-park.png" data-size="1600x1067">
+                                    <img src="images/coaching-park.png" class="img-fluid z-depth-1">
+                                </a>
+                            </figure>
+                            <figure class="col-md-4">
+                                <a href="images/cryptizy.png" data-size="1600x1067">
+                                    <img src="images/cryptizy.png" class="img-fluid z-depth-1">
+                                </a>
+                            </figure>
+                            <figure class="col-md-4">
+                                <a href="images/reparizy.png" data-size="1600x1067">
+                                    <img src="images/reparizy.png" class="img-fluid z-depth-1">
+                                </a>
+                            </figure>
+                            <figure class="col-md-4">
+                                <a href="images/plusdepoints.png" data-size="1600x1067">
+                                    <img src="images/plusdepoints.png" class="img-fluid z-depth-1">
+                                </a>
+                            </figure>
+                            <figure class="col-md-4">
+                                <a href="images/nunshen.png" data-size="1600x1067">
+                                    <img src="images/nunshen.png" class="img-fluid z-depth-1">
+                                </a>
+                            </figure>
+                            <figure class="col-md-4">
+                                <a href="images/sf3.png" data-size="1600x1067">
+                                    <img src="images/sf3.png" class="img-fluid z-depth-1">
+                                </a>
+                            </figure>
+                            <figure class="col-md-4">
+                                <a href="images/ucbi.png" data-size="1600x1067">
+                                    <img src="images/ucbi.png" class="img-fluid z-depth-1">
+                                </a>
+                            </figure>
+                            <figure class="col-md-4">
+                                <a href="images/ffn.png" data-size="1600x1067">
+                                    <img src="images/ffn.png" class="img-fluid z-depth-1">
+                                </a>
+                            </figure>
+                            <figure class="col-md-4">
+                                <a href="images/maps.png" data-size="1600x1067">
+                                    <img src="images/maps.png" class="img-fluid z-depth-1">
+                                </a>
+                            </figure>
+
+                        </div>
+                        <!-- /.Lightbox -->
+
+                    </div>
+                    <!-- /.First column -->
+
+                </div>
+                <!-- /.First row -->
+
+            </section>
+            <!-- /.Fourth section -->
+
+            <hr>
+
         </div>
-    </footer>
+        <!-- /.Fourth container -->
 
-    <div class="fixed-action-btn" style="bottom: 45px; right: 174px;">
-        <a href="https://soundcloud.com/jonathan-kablan" target="_bank" class="btn-floating btn-large orange">
-            <i class="material-icons">queue_music</i>
-        </a>
-    </div>
+        <!-- Contact form -->
+        <div id="contact" class="container">
 
-    <div class="fixed-action-btn" style="bottom: 45px; right: 100px;">
-        <a href="src/Jonathan-new.pdf" target="_bank" class="btn-floating btn-large blue">
-            <i class="material-icons">file_download</i>
-        </a>
-    </div>
+            <!--Section: Contact v.2-->
+            <section class="section contact-section mt-4 mb-5">
+                <!--Section heading-->
+                <h2 class="text-center text-uppercase my-5 pt-5 wow fadeIn" data-wow-delay="0.2s">Contact
+                    <strong>me</strong></h2>
+                <div class="row wow fadeIn" data-wow-delay="0.4s">
 
-    <div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
-        <a class="btn-floating btn-large red">
-            <i class="material-icons">announcement</i>
-        </a>
-        <ul>
-            <li>
-                <a target="_bank" class="btn-floating red" href="index.html">
-                    <i class="material-icons">home</i></a>
-            </li>
-            <li>
-                <a class="btn-floating yellow darken-1" href="mailto:jonathan.kablan@gmail.com">
-                    <i class="material-icons">email</i></a>
-            </li>
-            <li><a target="_bank" class="btn-floating blue darken-1" href="https://www.linkedin.com/in/jonathan-kablan-573815b8/"><i class="fa  fa-linkedin  fa-2x" style="color:#fff;" title="LinkedIn"></i></a></li>
-            <li><a target="_bank" class="btn-floating blue darken-1" href="https://www.facebook.com/jonathankablan"><i class="fa  fa-facebook  fa-2x" style="color:#fff;" title="Facebook"></i></a></li>
-            <li><a target="_bank" class="btn-floating blue darken-1" href="https://twitter.com/jonthanLight"><i class="fa  fa-twitter  fa-2x" style="color:#fff;" title="Twitter"></i></a></li>
-            <li><a target="_bank" class="btn-floating blue darken-1" href="https://github.com/jonathankablan"><i class="fa  fa-github  fa-2x" style="color:#fff;" title="Github"></i></a></li>
+                    <!--First column-->
+                    <div class="col-md-8 mb-5">
+                        <form>
+                            <!--First row-->
+                            <div class="row">
+
+                                <!--First column-->
+                                <div class="col-md-6">
+                                    <div class="md-form mb-0">
+                                        <div class="md-form mb-0">
+                                            <input type="text" id="form41" class="form-control">
+                                            <label for="form41" class="">Your name</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--Second column-->
+                                <div class="col-md-6">
+                                    <div class="md-form mb-0">
+                                        <div class="md-form mb-0">
+                                            <input type="text" id="form52" class="form-control">
+                                            <label for="form52" class="">Your email</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/.First row-->
+
+                            <!--Second row-->
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="md-form mb-0">
+                                        <input type="text" id="form51" class="form-control">
+                                        <label for="form51" class="">Subject</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/Second row-->
+
+                            <!--Third row-->
+                            <div class="row">
+                                <!--First column-->
+                                <div class="col-md-12">
+                                    <div class="md-form mb-0">
+                                        <textarea type="text" id="form76" class="md-textarea form-control"
+                                            rows="3"></textarea>
+                                        <label for="form76">Your message</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/.Third row-->
+                        </form>
+                        <div class="text-center text-md-left mt-4"> <a class="btn btn-primary">Send</a> </div>
+                    </div>
+                    <!--.First column-->
+
+                    <!--Second column-->
+                    <div class="col-md-4">
+                        <ul class="contact-icons list-unstyled text-center">
+                            <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                                <p>61 Rue Pascal, Paris France</p>
+                            </li>
+                            <li><i class="fas fa-phone fa-2x"></i>
+                                <p>06 56 84 59 08</p>
+                            </li>
+                            <li><i class="fas fa-envelope fa-2x"></i>
+                                <p>jonathan.kablan@gmail.com</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--.Second column-->
+                </div>
+
+            </section>
+            <!--/Section: Contact v.2-->
+
+        </div>
+        <!-- Contact form -->
+
+        <div class="streak1 black white-text">
+            <div class="flex-center">
+                <ul class="list-unstyled">
+                    <li>
+                        <h2 class="h2-responsive mt-5 wow fadeIn">-</h2>
+                    </li>
+                    <li>
+                        <h5 class="h5-responsive wow fadeIn" data-wow-delay="0.2s">Copyright © 2017 - Jonathan kablan</h5>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- /.Customers carousel -->
+
+    </main>
+    <!--/Main layout-->
+
+    <!-- Scrollspy -->
+    <div class="dotted-scrollspy clearfix d-none d-sm-block">
+        <ul class="nav smooth-scroll flex-column">
+            <li class="nav-item"><a class="nav-link" href="#home"><span></span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#about"><span></span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills"><span></span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#works"><span></span></a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact"><span></span></a></li>
         </ul>
     </div>
 
+    <!-- SCRIPTS -->
 
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
 
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
 
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/js_mdb.min.js"></script>
 
+    <script>
+        // initialize scrollspy
+        $('body').scrollspy({
+            target: '.dotted-scrollspy'
+        });
 
-    <!-- Modal Structure block 1-->
-    <div id="modal_pmariage" class="modal">
-        <div class="modal-content">
-            <h4>Prestataire de mariage</h4>
-            <div class="card">
-                <img src="src/pmariage.png" style="width: 100%;height: 100%;">
-            </div>
-        </div>
-        <div class="modal-footer">
-            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">close</a>
-        </div>
-    </div>
-    <div id="modal_restApi" class="modal">
-        <div class="modal-content">
-            <h4>restApi</h4>
-            <div class="card">
-                <img src="src/restApi.PNG" style="width: 100%;height: 100%;">
-            </div>
-        </div>
-        <div class="modal-footer">
-            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">close</a>
-        </div>
-    </div>
-    <div id="modal_ceptronbox" class="modal">
-        <div class="modal-content">
-            <h4>Ceptronbox.com</h4>
-            <div class="card">
-                <img src="src/ceptronbox.PNG" style="width: 100%;height: 100%;">
-            </div>
-        </div>
-        <div class="modal-footer">
-            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">close</a>
-        </div>
-    </div>
-    <div id="modal_meetic" class="modal">
-        <div class="modal-content">
-            <h4>Site de rencontre</h4>
-            <div class="card">
-                <img src="src/meetic.png" style="width: 100%;height: 100%;">
-            </div>
-        </div>
-        <div class="modal-footer">
-            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">close</a>
-        </div>
-    </div>
-    <div id="modal_cim" class="modal">
-        <div class="modal-content">
-            <h4>Site pour particulier</h4>
-            <div class="card">
-                <img src="src/cim.png" style="width: 100%;height: 100%;">
-            </div>
-        </div>
-        <div class="modal-footer">
-            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">close</a>
-        </div>
-    </div>
-    <div id="modal_nstudio" class="modal">
-        <div class="modal-content">
-            <h4>Site pour un studio de music</h4>
-            <div class="card">
-                <img src="src/nstudio.png" style="width: 100%;height: 100%;">
-            </div>
-        </div>
-        <div class="modal-footer">
-            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">close</a>
-        </div>
-    </div>
+        // initialize lightbox
+        $("#mdb-lightbox-ui").load("js/addons/lightbox-ui.html");
 
+        $('.navbar-collapse a').click(function () {
+            $(".navbar-collapse").collapse('hide');
+        });
 
+        $('.chips').on('chip.add', function (e, chip) {
+            // you have the added chip here
+        });
 
-    <!-- Modal Structure block 2-->
-    <div id="modal_reparizy" class="modal">
-        <div class="modal-content">
-            <h4>Reparizy site dans l'auto</h4>
-            <div class="card">
-                <img src="src/reparizy.png" style="width: 100%;height: 100%;">
-            </div>
-        </div>
-        <div class="modal-footer">
-            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">close</a>
-        </div>
-    </div>
-    <div id="modal_appsymfony" class="modal">
-        <div class="modal-content">
-            <h4>App ionic symfony</h4>
-            <div class="card">
-                <img src="src/sf3.PNG" style="width: 100%;height: 100%;">
-            </div>
-        </div>
-        <div class="modal-footer">
-            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">close</a>
-        </div>
-    </div>
-    <div id="modal_ffn" class="modal">
-        <div class="modal-content">
-            <h4>Site wordpress pour nation de france</h4>
-            <div class="card">
-                <img src="src/ffn.png" style="width: 100%;height: 100%;">
-            </div>
-        </div>
-        <div class="modal-footer">
-            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">close</a>
-        </div>
-    </div>
-    <div id="modal_matrix" class="modal">
-        <div class="modal-content">
-            <h4>App matrix java</h4>
-            <div class="card">
-                <img src="src/matrix.png" style="width: 100%;height: 100%;">
-            </div>
-        </div>
-        <div class="modal-footer">
-            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">close</a>
-        </div>
-    </div>
-    <div id="modal_skindeep2" class="modal">
-        <div class="modal-content">
-            <h4>Skindeep theme 2</h4>
-            <div class="card">
-                <img src="src/skindeep2.png" style="width: 100%;height: 100%;">
-            </div>
-        </div>
-        <div class="modal-footer">
-            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">close</a>
-        </div>
-    </div>
-    <div id="modal_ulci" class="modal">
-        <div class="modal-content">
-            <h4>Site pour organisation</h4>
-            <div class="card">
-                <img src="src/ulci.png" style="width: 100%;height: 100%;">
-            </div>
-        </div>
-        <div class="modal-footer">
-            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">close</a>
-        </div>
-    </div>
+        $('.chips').on('chip.delete', function (e, chip) {
+            // you have the deleted chip here
+        });
 
+        $('.chips').on('chip.select', function (e, chip) {
+            // you have the selected chip here
+        });
 
+        /* WOW.js init */
+        new WOW().init();
 
-
-    <!-- Modal Structure block 3-->
-    <div id="modal_yoptube" class="modal">
-        <div class="modal-content">
-            <h4>Yoptube service youtupe</h4>
-            <div class="card">
-                <img src="src/yoptube.png" style="width: 100%;height: 100%;">
-            </div>
-        </div>
-        <div class="modal-footer">
-            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">close</a>
-        </div>
-    </div>
-    <div id="modal_skindeep" class="modal">
-        <div class="modal-content">
-            <h4>Skindeep theme 1</h4>
-            <div class="card">
-                <img src="src/skindeep.png" style="width: 100%;height: 100%;">
-            </div>
-        </div>
-        <div class="modal-footer">
-            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">close</a>
-        </div>
-    </div>
-    <div id="modal_fd" class="modal">
-        <div class="modal-content">
-            <h4>Site de musique</h4>
-            <div class="card">
-                <img src="src/fd.png" style="width: 100%;height: 100%;">
-            </div>
-        </div>
-        <div class="modal-footer">
-            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">close</a>
-        </div>
-    </div>
-    <div id="modal_lt19" class="modal">
-        <div class="modal-content">
-            <h4>Portfolio football</h4>
-            <div class="card">
-                <img src="src/lt19.png" style="width: 100%;height: 100%;">
-            </div>
-        </div>
-        <div class="modal-footer">
-            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">close</a>
-        </div>
-    </div>
-    <div id="modal_wadibou" class="modal">
-        <div class="modal-content">
-            <h4>Site pour restaurant</h4>
-            <div class="card">
-                <img href="#modal2" src="src/wadibou.png" style="width: 100%;height: 100%;">
-            </div>
-        </div>
-        <div class="modal-footer">
-            <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">close</a>
-        </div>
-    </div>
+    </script>
 
 </body>
-
 </html>
